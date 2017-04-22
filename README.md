@@ -35,14 +35,26 @@
 ```json
 
 {
-    "author": {
-        "name": "The Polymer Authors"
+    "name": "webcomponents.js",
+    "version": "0.7.24",
+    "description": "webcomponents.js",
+    "main": "webcomponents.js",
+    "directories": {
+        "test": "tests"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webcomponents/webcomponentsjs.git"
+    },
+    "author": "The Polymer Authors",
+    "license": "BSD-3-Clause",
     "bugs": {
         "url": "https://github.com/webcomponents/webcomponentsjs/issues"
     },
-    "dependencies": {},
-    "description": "webcomponents.js",
+    "scripts": {
+        "test": "wct"
+    },
+    "homepage": "http://webcomponents.org",
     "devDependencies": {
         "gulp": "^3.8.8",
         "gulp-audit": "^1.0.0",
@@ -52,35 +64,7 @@
         "run-sequence": "^1.0.1",
         "web-component-tester": "^4.0.1"
     },
-    "directories": {
-        "test": "tests"
-    },
-    "dist": {
-        "shasum": "2116fbfa1468ec416a7befdaa333e1d118f69c04",
-        "tarball": "https://registry.npmjs.org/webcomponents.js/-/webcomponents.js-0.7.24.tgz"
-    },
-    "gitHead": "8a2e40557b177e2cca0def2553f84c8269c8f93e",
-    "homepage": "http://webcomponents.org",
-    "license": "BSD-3-Clause",
-    "main": "webcomponents.js",
-    "maintainers": [
-        {
-            "name": "addyosmani"
-        },
-        {
-            "name": "azakus"
-        }
-    ],
-    "name": "webcomponents.js",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/webcomponents/webcomponentsjs.git"
-    },
-    "scripts": {
-        "test": "wct"
-    },
-    "version": "0.7.24"
+    "bin": {}
 }
 ```
 
